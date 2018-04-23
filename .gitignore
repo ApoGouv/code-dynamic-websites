@@ -1,4 +1,9 @@
 .DS_Store
+.htaccess
+.htaccess.txt
+htaccess.txt
+htaccess.*
+
 ### NetBeans template
 nbproject/private/
 build/
@@ -11,6 +16,8 @@ nbdist/
 .AppleDouble
 .LSOverride
 
+# IntelliJ
+.idea
 # Icon must end with two \r
 Icon
 
