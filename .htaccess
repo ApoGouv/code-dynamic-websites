@@ -1,0 +1,12 @@
+#Options +Indexes
+#IndexOptions FancyIndexing FoldersFirst
+#
+##Alternate default index pages
+#DirectoryIndex index.php index.html
+#
+#<IfModule mod_rewrite.c>
+#    #RewriteEngine on
+#    #RewriteBase /CodeDynamicWebsite
+#    #options +FollowSymLinks
+#    #RewriteRule ^(.*)$ http://localhost/CodeDynamicWebsite/$1 [L,QSA]
+#</IfModule>

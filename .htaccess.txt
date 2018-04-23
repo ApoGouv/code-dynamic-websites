@@ -1,0 +1,4 @@
+#RewriteEngine on
+#RewriteBase /CodeDynamicWebsite
+#options +FollowSymLinks
+#RewriteRule ^(.*)$ /CodeDynamicWebsite/$1 [L,QSA]
