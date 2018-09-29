@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 // -------- PHP STORE HOURS ---------
 // ---------- Version 2.0 -----------
@@ -10,10 +10,10 @@
 
 // Set your timezone (codes listed at http://php.net/manual/en/timezones.php)
 // Delete the following line if you've already defined a timezone elsewhere.
-date_default_timezone_set('America/Edmonton'); 
+date_default_timezone_set('America/Edmonton');
 
 // Define daily open hours
-// Must be in 24-hour format, separated by dash 
+// Must be in 24-hour format, separated by dash
 // If closed for the day, set to 00:00-00:00
 // If open multiple times in one day, enter time ranges separated by a comma
 // If open late (ie. 6pm - 1am), add hours after midnight to the next day (ie. 00:00-1:00)
@@ -62,7 +62,7 @@ $days = array(
 );
 
 
-// -------- END EDITING -------- 
+// -------- END EDITING --------
 
 $day = strtolower(date("D"));
 $today = strtotime('today midnight');
