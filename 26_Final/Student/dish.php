@@ -27,7 +27,7 @@
      * @return void
      */
     function suggestedTip($price, $tip){
-        echo money_format('%.2n', $price*$tip );
+        echo number_format($price * $tip, 2);
     }
 ?>
     <hr>
